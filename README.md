@@ -1,8 +1,8 @@
-# @nestjs-crud/base
+# @thephilosoph/nestjs-crud-base
 
 A powerful and flexible CRUD library for NestJS that provides base classes for rapid REST API development with TypeORM. Built-in support for pagination, filtering, serialization, soft delete, and file uploads.
 
-[![npm version](https://img.shields.io/npm/v/@nestjs-crud/base.svg)](https://www.npmjs.com/package/@nestjs-crud/base)
+[![npm version](https://img.shields.io/npm/v/@thephilosoph/nestjs-crud-base.svg)](https://www.npmjs.com/package/@thephilosoph/nestjs-crud-base)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
@@ -19,7 +19,7 @@ A powerful and flexible CRUD library for NestJS that provides base classes for r
 ## Installation
 
 ```bash
-npm install @nestjs-crud/base
+npm install @thephilosoph/nestjs-crud-base
 ```
 
 ### Peer Dependencies
@@ -109,7 +109,7 @@ export class UserService extends BaseService<User> {
 
 ```typescript
 import { Controller } from '@nestjs/common';
-import { BaseController } from '@nestjs-crud/base';
+import { BaseController } from '@thephilosoph/nestjs-crud-base';
 import { User } from './user.entity';
 import { UserService } from './user.service';
 import { CreateUserDto, UpdateUserDto, UserResponseDto } from './user.dto';
